@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sathwik_Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h3>My Portfolio</h3>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#certifications" class="nav-link">Certifications</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="theme-toggle">
+          <button
+            class="theme-toggle-btn"
+            id="theme-toggle"
+            aria-label="Toggle theme"
+          >
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h3>Hello, I'm</h3>
+            <h1>Sathwik Mittapelly</h1>
+            <h2>Aspiring Full-Stack Developer</h2>
+            <p class="typing-text">
+              <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Get In Touch</a>
+              <a
+                href="https://drive.google.com/file/d/10ezLbdMrhvFq_E-X-NVrrUDN3OBhVh_9/view?usp=sharing"
+                class="btn btn-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-eye"></i> View Resume</a
+              >
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="image-container">
+              <div class="image-wrapper">
+                <img src="images/my_photo_croped1.png" alt="Profile" />
+              </div>
+              <div class="background-circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate software engineer with a strong foundation in
+              full-stack development and a keen interest in building scalable,
+              user-centric applications. I thrive on solving complex problems
+              and turning innovative ideas into reality through clean, efficient
+              code.
+            </p>
+            <p>
+              With expertise in modern web technologies and a commitment to
+              continuous learning, I'm always excited to take on new challenges
+              and contribute to projects that make a meaningful impact.
+            </p>
+            <div class="about-info">
+              <div class="info-item">
+                <i class="fas fa-graduation-cap"></i>
+                <span>B.Tech Information Technology</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-bullseye"></i>
+                <span>Career Goal: Software Developer</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-rocket"></i>
+                <span>Passionate About Building Web Applications</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-lightbulb"></i>
+                <span>Continuous Learner of New Technologies</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <h3 class="stat-number" data-target="2">0</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="stat-number" data-target="1">0</h3>
+              <p>interships</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="stat-number" data-target="5">0</h3>
+              <p>Certifications</p>
+            </div>
+            <div class="stat-item">
+              <h3 class="stat-number" data-target="4">0</h3>
+              <p>Technologies Learned</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-content">
+          <div class="skills-categories">
+            <div class="skill-category">
+              <h3>Languages</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <i class="fab fa-python"></i>
+                  <span>Python</span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="fab fa-js"></i>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Web & Frontend</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS</span>
+                </div>
+
+                <div class="skill-item">
+                  <i class="fab fa-react"></i>
+                  <span>React</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Databases & Tools</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <i class="fas fa-database"></i>
+                  <span>MySQL</span>
+                </div>
+                <div class="skill-item">
+                  <i class="devicon-vscode-plain"></i>
+                  <span>VS Code</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-git-alt"></i>
+                  <span>Git</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Libraries</h3>
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <i class="fas fa-chart-bar"></i>
+                  <span>Pandas</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-calculator"></i>
+                  <span>NumPy</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-chart-line"></i>
+                  <span>Matplotlib</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                Developed an e-commerce platform featuring user login, product
+                browsing, and cart management with a responsive design.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Personal Finance Tracker</h3>
+              <p>
+                Developed a personal finance tracker to monitor income,
+                expenses, assets, liabilities, and financial goals.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a href="#" class="project-link">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+          <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="certification-content">
+              <h3>Data Science Using Python Field Project</h3>
+              <p class="certification-issuer">NSIC</p>
+              <p class="certification-date">Issued: July 2023</p>
+              <a
+                href="https://drive.google.com/file/d/1rNt6RlqlLXGqqj68REdiSQKANZoIdBiw/view?usp=drive_link"
+                class="certification-link"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> View Certificate
+              </a>
+            </div>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fab fa-google"></i>
+            </div>
+            <div class="certification-content">
+              <h3>UAS/Drone Technology Bootcamp</h3>
+              <p class="certification-issuer">C - DAC Hyderabad</p>
+              <p class="certification-date">Issued: Aug 2023</p>
+              <a
+                href="https://drive.google.com/file/d/15HaUCf--RlG54GGgBNf5qV0xOajmRK2g/view?usp=drive_link"
+                class="certification-link"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> View Certificate
+              </a>
+            </div>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fab fa-microsoft"></i>
+            </div>
+            <div class="certification-content">
+              <h3>Software Engineering Job Simulation</h3>
+              <p class="certification-issuer">Forage</p>
+              <p class="certification-date">Issued: Sep 2024</p>
+              <a
+                href="https://drive.google.com/file/d/1k6nKDyClVB5s5Y7CpKBNhinzSTX8CxnA/view?usp=drive_link"
+                class="certification-link"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> View Certificate
+              </a>
+            </div>
+          </div>
+          <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <div class="certification-content">
+              <h3>Web Development</h3>
+              <p class="certification-issuer">Mind Luster</p>
+              <p class="certification-date">Issued: Nov 2024</p>
+              <a
+                href="https://drive.google.com/file/d/1DI7Tugb0hJ159Bk7ta62ngH8Z-p483ad/view?usp=sharing"
+                class="certification-link"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in hearing about new opportunities and
+              exciting projects. Whether you have a question or just want to say
+              hi, feel free to reach out!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>mittapellysathwik@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+91 6303431980</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Hyderabad, Telangana, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/sathwik-mittapelly"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sathwik-mittapelly"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="social-link" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/sathwikchintu123/"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xgobaneq" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Sathwik Mittapelly. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
