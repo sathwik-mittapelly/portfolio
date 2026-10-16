@@ -101,7 +101,7 @@ portfolio-website/
 
 ## 🚀 How to Use
 
-1. **Visit:** [https://sathwik-mittapelly.github.io/Portfolio/](https://sathwik-mittapelly.github.io/Portfolio/)
+1. **Visit:** [https://sathwik-mittapelly.github.io/portfolio/](https://sathwik-mittapelly.github.io/portfolio/)
 2. **Navigate** using the navbar to explore different sections
 3. **View** projects with live demos and source code links
 4. **Explore** professional experience and certifications
