@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This portfolio showcases my skills, pr
 
 This portfolio website is designed to provide recruiters, employers, and follow developers with an overview of my technical skills, projects, certifications, and contact information in a clean and professional format.
 
-🔗 **Live Preview:** [https://sathwik-mittapelly.github.io/Portfolio/](https://sathwik-mittapelly.github.io/portfolio/)
+🔗 **Live Preview:** [https://sathwik-mittapelly.github.io/portfolio/](https://sathwik-mittapelly.github.io/portfolio/)
 
 ## ✨ Features
 
